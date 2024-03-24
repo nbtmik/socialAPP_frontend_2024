@@ -138,7 +138,7 @@ const UserProfile = () => {
             {myProfile ? null : (
               <Button
                 variant="contained"
-                style={{ background: following ? "red" : "" }}
+                style={{ background: following ? "red" : "blue" }}
                 onClick={followHandler}
                 disabled={followLoading}
               >
